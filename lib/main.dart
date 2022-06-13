@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:student_portal/Faculty.dart';
+import 'package:student_portal/holiday.dart';
 import 'Syllabus.dart';
 import 'package:student_portal/Timetable.dart';
 import 'package:student_portal/notes.dart';
@@ -20,6 +21,18 @@ class Portal extends StatefulWidget {
 }
 
 class _PortalState extends State<Portal> {
+  erplauncher() async {
+    Uri url = Uri.parse(
+        'https://www.bing.com/ck/a?!&&p=de62e88beb2af036e206a699c29d3f7f2b4ed29292182e7a95a7df6ebceff299JmltdHM9MTY1NTAxNDE4NyZpZ3VpZD1lODg0NDYzZS1kMGViLTQzNWUtYTliYi00Yjc2MzRkMTRmZDAmaW5zaWQ9NTE2NQ&ptn=3&fclid=42ca237f-ea16-11ec-adb1-71608ad9e5f1&u=a1aHR0cHM6Ly9lcnAuYml0bWVzcmEuYWMuaW4v&ntb=1/');
+    if (await canLaunchUrl(url)) {
+      await launchUrl(
+        url,
+      );
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -49,6 +62,7 @@ class _PortalState extends State<Portal> {
               'Student Portal',
               style: TextStyle(
                 fontSize: 30,
+                fontFamily: 'Secular',
               ),
             ),
             Row(
@@ -67,12 +81,19 @@ class _PortalState extends State<Portal> {
                     width: 150,
                     decoration: BoxDecoration(
                         color: Color.fromARGB(255, 237, 190, 0),
-                        borderRadius: BorderRadius.circular(25)
+                        borderRadius: BorderRadius.circular(25),
+                        border: Border.all(
+                          color: Colors.black,
+                        )
                         //more than 50% of width makes circle
                         ),
                     child: Center(
                       child: Text(
                         'Syllabus',
+                        style: TextStyle(
+                          fontFamily: 'Secular',
+                          fontSize: 18,
+                        ),
                       ),
                     ),
                   ),
@@ -81,13 +102,42 @@ class _PortalState extends State<Portal> {
                   width: 15,
                 ),
                 GestureDetector(
-                  onTap: () async {
-                    Uri url = Uri.parse('https://tinyurl.com/jr3wyknt');
-                    if (await canLaunchUrl(url)) {
-                      await launchUrl(url);
-                    } else {
-                      throw '::Could not launch $url';
-                    }
+                  onTap: erplauncher,
+                  child: Container(
+                    margin: EdgeInsets.fromLTRB(0.0, 50.0, 0.0, 10.0),
+                    height: 60,
+                    width: 150,
+                    decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 237, 190, 0),
+                        borderRadius: BorderRadius.circular(25),
+                        border: Border.all(
+                          color: Colors.black,
+                        )
+                        //more than 50% of width makes circle
+
+                        ),
+                    child: Center(
+                      child: Text(
+                        'Erp',
+                        style: TextStyle(
+                          fontFamily: 'Secular',
+                          fontSize: 18,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const Holiday()),
+                    );
                   },
                   child: Container(
                     margin: EdgeInsets.fromLTRB(0.0, 50.0, 0.0, 10.0),
@@ -95,59 +145,51 @@ class _PortalState extends State<Portal> {
                     width: 150,
                     decoration: BoxDecoration(
                         color: Color.fromARGB(255, 237, 190, 0),
-                        borderRadius: BorderRadius.circular(25)
-                        //more than 50% of width makes circle
-                        ),
-                    child: Center(
-                      child: Text(
-                        'Erp',
-                      ),
-                    ),
-                  ),
-                ),
-              ],
-            ),
-            GestureDetector(
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Container(
-                    margin: EdgeInsets.fromLTRB(0.0, 50.0, 0.0, 10.0),
-                    height: 60,
-                    width: 150,
-                    decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 237, 190, 0),
-                        borderRadius: BorderRadius.circular(25)
+                        borderRadius: BorderRadius.circular(25),
+                        border: Border.all(
+                          color: Colors.black,
+                        )
                         //more than 50% of width makes circle
                         ),
                     child: Center(
                       child: Text(
                         'Holiday',
-                      ),
-                    ),
-                  ),
-                  SizedBox(
-                    width: 15,
-                  ),
-                  GestureDetector(
-                    child: Container(
-                      margin: EdgeInsets.fromLTRB(0.0, 50.0, 0.0, 10.0),
-                      height: 60,
-                      width: 150,
-                      decoration: BoxDecoration(
-                          color: Color.fromARGB(255, 237, 190, 0),
-                          borderRadius: BorderRadius.circular(25)
-                          //more than 50% of width makes circle
-                          ),
-                      child: Center(
-                        child: Text(
-                          'Test',
+                        style: TextStyle(
+                          fontFamily: 'Secular',
+                          fontSize: 18,
                         ),
                       ),
                     ),
                   ),
-                ],
-              ),
+                ),
+                SizedBox(
+                  width: 15,
+                ),
+                GestureDetector(
+                  child: Container(
+                    margin: EdgeInsets.fromLTRB(0.0, 50.0, 0.0, 10.0),
+                    height: 60,
+                    width: 150,
+                    decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 237, 190, 0),
+                        borderRadius: BorderRadius.circular(25),
+                        border: Border.all(
+                          color: Colors.black,
+                        )
+                        //more than 50% of width makes circle
+                        ),
+                    child: Center(
+                      child: Text(
+                        'Test',
+                        style: TextStyle(
+                          fontFamily: 'Secular',
+                          fontSize: 18,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ],
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -165,12 +207,19 @@ class _PortalState extends State<Portal> {
                     width: 150,
                     decoration: BoxDecoration(
                         color: Color.fromARGB(255, 237, 190, 0),
-                        borderRadius: BorderRadius.circular(25)
+                        borderRadius: BorderRadius.circular(25),
+                        border: Border.all(
+                          color: Colors.black,
+                        )
                         //more than 50% of width makes circle
                         ),
                     child: Center(
                       child: Text(
                         'Notes',
+                        style: TextStyle(
+                          fontFamily: 'Secular',
+                          fontSize: 18,
+                        ),
                       ),
                     ),
                   ),
@@ -185,12 +234,19 @@ class _PortalState extends State<Portal> {
                     width: 150,
                     decoration: BoxDecoration(
                         color: Color.fromARGB(255, 237, 190, 0),
-                        borderRadius: BorderRadius.circular(25)
+                        borderRadius: BorderRadius.circular(25),
+                        border: Border.all(
+                          color: Colors.black,
+                        )
                         //more than 50% of width makes circle
                         ),
                     child: Center(
                       child: Text(
                         'Doubt',
+                        style: TextStyle(
+                          fontFamily: 'Secular',
+                          fontSize: 18,
+                        ),
                       ),
                     ),
                   ),
@@ -214,12 +270,19 @@ class _PortalState extends State<Portal> {
                     width: 150,
                     decoration: BoxDecoration(
                         color: Color.fromARGB(255, 237, 190, 0),
-                        borderRadius: BorderRadius.circular(25)
+                        borderRadius: BorderRadius.circular(25),
+                        border: Border.all(
+                          color: Colors.black,
+                        )
                         //more than 50% of width makes circle
                         ),
                     child: Center(
                       child: Text(
                         'Timetable',
+                        style: TextStyle(
+                          fontFamily: 'Secular',
+                          fontSize: 18,
+                        ),
                       ),
                     ),
                   ),
@@ -240,12 +303,19 @@ class _PortalState extends State<Portal> {
                     width: 150,
                     decoration: BoxDecoration(
                         color: Color.fromARGB(255, 237, 190, 0),
-                        borderRadius: BorderRadius.circular(25)
+                        borderRadius: BorderRadius.circular(25),
+                        border: Border.all(
+                          color: Colors.black,
+                        )
                         //more than 50% of width makes circle
                         ),
                     child: Center(
                       child: Text(
                         'Faculty',
+                        style: TextStyle(
+                          fontFamily: 'Secular',
+                          fontSize: 18,
+                        ),
                       ),
                     ),
                   ),
