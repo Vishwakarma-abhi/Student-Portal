@@ -41,6 +41,42 @@ class _HolidayState extends State<Holiday> {
                   border: Border.all(
                     color: Colors.black,
                   )),
+              child: SingleChildScrollView(
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 13.0),
+                      child: Container(
+                        margin: EdgeInsets.all(13),
+                        child: Column(
+                          children: [
+                            Text(
+                              '26',
+                              style: TextStyle(
+                                  fontSize: 15, fontFamily: 'Secular'),
+                            ),
+                            Text(
+                              'JAN',
+                              style: TextStyle(
+                                  fontSize: 15, fontFamily: 'Secular'),
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(10.0, 10.0, 10.0, 0.0),
+                      child: Container(
+                        margin: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 20.0),
+                        child: Text(
+                          'Rebulic Day',
+                          style: TextStyle(fontFamily: 'Secular', fontSize: 25),
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+              ),
             ),
             Container(
               margin: EdgeInsets.all(15),
@@ -52,6 +88,42 @@ class _HolidayState extends State<Holiday> {
                   border: Border.all(
                     color: Colors.black,
                   )),
+              child: SingleChildScrollView(
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 13.0),
+                      child: Container(
+                        margin: EdgeInsets.all(13),
+                        child: Column(
+                          children: [
+                            Text(
+                              '26',
+                              style: TextStyle(
+                                  fontSize: 15, fontFamily: 'Secular'),
+                            ),
+                            Text(
+                              'JAN',
+                              style: TextStyle(
+                                  fontSize: 15, fontFamily: 'Secular'),
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(10.0, 10.0, 10.0, 0.0),
+                      child: Container(
+                        margin: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 20.0),
+                        child: Text(
+                          'Rebulic Day',
+                          style: TextStyle(fontFamily: 'Secular', fontSize: 25),
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+              ),
             ),
             Container(
               margin: EdgeInsets.all(15),
@@ -63,6 +135,42 @@ class _HolidayState extends State<Holiday> {
                   border: Border.all(
                     color: Colors.black,
                   )),
+              child: SingleChildScrollView(
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 13.0),
+                      child: Container(
+                        margin: EdgeInsets.all(13),
+                        child: Column(
+                          children: [
+                            Text(
+                              '26',
+                              style: TextStyle(
+                                  fontSize: 15, fontFamily: 'Secular'),
+                            ),
+                            Text(
+                              'JAN',
+                              style: TextStyle(
+                                  fontSize: 15, fontFamily: 'Secular'),
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(10.0, 10.0, 10.0, 0.0),
+                      child: Container(
+                        margin: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 20.0),
+                        child: Text(
+                          'Rebulic Day',
+                          style: TextStyle(fontFamily: 'Secular', fontSize: 25),
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+              ),
             ),
             Container(
               margin: EdgeInsets.all(15),
@@ -74,6 +182,42 @@ class _HolidayState extends State<Holiday> {
                   border: Border.all(
                     color: Colors.black,
                   )),
+              child: SingleChildScrollView(
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 13.0),
+                      child: Container(
+                        margin: EdgeInsets.all(13),
+                        child: Column(
+                          children: [
+                            Text(
+                              '26',
+                              style: TextStyle(
+                                  fontSize: 15, fontFamily: 'Secular'),
+                            ),
+                            Text(
+                              'JAN',
+                              style: TextStyle(
+                                  fontSize: 15, fontFamily: 'Secular'),
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(10.0, 10.0, 10.0, 0.0),
+                      child: Container(
+                        margin: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 20.0),
+                        child: Text(
+                          'Rebulic Day',
+                          style: TextStyle(fontFamily: 'Secular', fontSize: 25),
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+              ),
             ),
             Container(
               margin: EdgeInsets.all(15),
@@ -85,6 +229,42 @@ class _HolidayState extends State<Holiday> {
                   border: Border.all(
                     color: Colors.black,
                   )),
+              child: SingleChildScrollView(
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 13.0),
+                      child: Container(
+                        margin: EdgeInsets.all(13),
+                        child: Column(
+                          children: [
+                            Text(
+                              '26',
+                              style: TextStyle(
+                                  fontSize: 15, fontFamily: 'Secular'),
+                            ),
+                            Text(
+                              'JAN',
+                              style: TextStyle(
+                                  fontSize: 15, fontFamily: 'Secular'),
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(10.0, 10.0, 10.0, 0.0),
+                      child: Container(
+                        margin: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 20.0),
+                        child: Text(
+                          'Rebulic Day',
+                          style: TextStyle(fontFamily: 'Secular', fontSize: 25),
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+              ),
             ),
             Container(
               margin: EdgeInsets.all(15),
@@ -96,6 +276,42 @@ class _HolidayState extends State<Holiday> {
                   border: Border.all(
                     color: Colors.black,
                   )),
+              child: SingleChildScrollView(
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 13.0),
+                      child: Container(
+                        margin: EdgeInsets.all(13),
+                        child: Column(
+                          children: [
+                            Text(
+                              '26',
+                              style: TextStyle(
+                                  fontSize: 15, fontFamily: 'Secular'),
+                            ),
+                            Text(
+                              'JAN',
+                              style: TextStyle(
+                                  fontSize: 15, fontFamily: 'Secular'),
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(10.0, 10.0, 10.0, 0.0),
+                      child: Container(
+                        margin: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 20.0),
+                        child: Text(
+                          'Rebulic Day',
+                          style: TextStyle(fontFamily: 'Secular', fontSize: 25),
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+              ),
             ),
             Container(
               margin: EdgeInsets.all(15),
@@ -107,6 +323,29 @@ class _HolidayState extends State<Holiday> {
                   border: Border.all(
                     color: Colors.black,
                   )),
+              child: SingleChildScrollView(
+                child: Row(
+                  children: [
+                    Container(
+                      margin: EdgeInsets.all(13),
+                      child: Column(
+                        children: [
+                          Text(
+                            '26',
+                            style:
+                                TextStyle(fontSize: 15, fontFamily: 'Secular'),
+                          ),
+                          Text(
+                            'JAN',
+                            style:
+                                TextStyle(fontSize: 15, fontFamily: 'Secular'),
+                          )
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
             ),
             Container(
               margin: EdgeInsets.all(15),
@@ -118,6 +357,29 @@ class _HolidayState extends State<Holiday> {
                   border: Border.all(
                     color: Colors.black,
                   )),
+              child: SingleChildScrollView(
+                child: Row(
+                  children: [
+                    Container(
+                      margin: EdgeInsets.all(13),
+                      child: Column(
+                        children: [
+                          Text(
+                            '26',
+                            style:
+                                TextStyle(fontSize: 15, fontFamily: 'Secular'),
+                          ),
+                          Text(
+                            'JAN',
+                            style:
+                                TextStyle(fontSize: 15, fontFamily: 'Secular'),
+                          )
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
             ),
             Container(
               margin: EdgeInsets.all(15),
