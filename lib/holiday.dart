@@ -18,70 +18,68 @@ class _HolidayState extends State<Holiday> {
           children: [
             Center(
               child: Container(
-                  width: 200,
-                  height: 50,
+                  width: 220,
+                  height: 70,
                   decoration: BoxDecoration(
-                    color: Colors.amber,
-                    borderRadius: BorderRadius.circular(20),
-                  ),
+                      color: Colors.amber,
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(color: Colors.black)),
                   margin: EdgeInsets.all(50),
                   child: Center(
                       child: Text(
                     'HOLIDAYS',
-                    style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
                   ))),
             ),
             Container(
               margin: EdgeInsets.all(15),
               width: 400,
-              height: 70,
+              height: 90,
               decoration: BoxDecoration(
-                  color: Color.fromARGB(255, 194, 253, 75),
+                  color: Color.fromARGB(255, 253, 247, 75),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(
                     color: Colors.black,
                   )),
-              child: SingleChildScrollView(
-                child: Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 13.0),
-                      child: Container(
-                        margin: EdgeInsets.all(13),
-                        child: Column(
-                          children: [
-                            Text(
-                              '26',
-                              style: TextStyle(
-                                  fontSize: 15, fontFamily: 'Secular'),
-                            ),
-                            Text(
-                              'JAN',
-                              style: TextStyle(
-                                  fontSize: 15, fontFamily: 'Secular'),
-                            )
-                          ],
-                        ),
+              child: Row(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 13.0),
+                    child: Container(
+                      margin: EdgeInsets.all(13),
+                      child: Column(
+                        children: [
+                          Text(
+                            '26',
+                            style:
+                                TextStyle(fontSize: 15, fontFamily: 'Secular'),
+                          ),
+                          Text(
+                            'JAN',
+                            style:
+                                TextStyle(fontSize: 15, fontFamily: 'Secular'),
+                          )
+                        ],
                       ),
                     ),
-                    Padding(
-                      padding: const EdgeInsets.fromLTRB(10.0, 10.0, 10.0, 0.0),
-                      child: Container(
-                        margin: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 20.0),
-                        child: Text(
-                          'Rebulic Day',
-                          style: TextStyle(fontFamily: 'Secular', fontSize: 25),
-                        ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(10.0, 10.0, 10.0, 0.0),
+                    child: Container(
+                      margin: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 20.0),
+                      child: Text(
+                        'Rebulic Day',
+                        style: TextStyle(fontSize: 35),
                       ),
-                    )
-                  ],
-                ),
+                    ),
+                  )
+                ],
               ),
             ),
             Container(
               margin: EdgeInsets.all(15),
               width: 400,
-              height: 70,
+              height: 90,
               decoration: BoxDecoration(
                   color: Color.fromARGB(255, 253, 146, 75),
                   borderRadius: BorderRadius.circular(20),
@@ -98,12 +96,12 @@ class _HolidayState extends State<Holiday> {
                         child: Column(
                           children: [
                             Text(
-                              '26',
+                              '1',
                               style: TextStyle(
                                   fontSize: 15, fontFamily: 'Secular'),
                             ),
                             Text(
-                              'JAN',
+                              'FEB',
                               style: TextStyle(
                                   fontSize: 15, fontFamily: 'Secular'),
                             )
@@ -116,8 +114,8 @@ class _HolidayState extends State<Holiday> {
                       child: Container(
                         margin: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 20.0),
                         child: Text(
-                          'Rebulic Day',
-                          style: TextStyle(fontFamily: 'Secular', fontSize: 25),
+                          'Maha Shivratri',
+                          style: TextStyle(fontSize: 35),
                         ),
                       ),
                     )
@@ -128,9 +126,9 @@ class _HolidayState extends State<Holiday> {
             Container(
               margin: EdgeInsets.all(15),
               width: 400,
-              height: 70,
+              height: 90,
               decoration: BoxDecoration(
-                  color: Color.fromARGB(255, 75, 253, 244),
+                  color: Color.fromARGB(255, 97, 164, 227),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(
                     color: Colors.black,
@@ -145,12 +143,12 @@ class _HolidayState extends State<Holiday> {
                         child: Column(
                           children: [
                             Text(
-                              '26',
+                              '17',
                               style: TextStyle(
                                   fontSize: 15, fontFamily: 'Secular'),
                             ),
                             Text(
-                              'JAN',
+                              'MAR',
                               style: TextStyle(
                                   fontSize: 15, fontFamily: 'Secular'),
                             )
@@ -163,8 +161,8 @@ class _HolidayState extends State<Holiday> {
                       child: Container(
                         margin: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 20.0),
                         child: Text(
-                          'Rebulic Day',
-                          style: TextStyle(fontFamily: 'Secular', fontSize: 25),
+                          'Holi',
+                          style: TextStyle(fontSize: 35),
                         ),
                       ),
                     )
@@ -175,9 +173,9 @@ class _HolidayState extends State<Holiday> {
             Container(
               margin: EdgeInsets.all(15),
               width: 400,
-              height: 70,
+              height: 90,
               decoration: BoxDecoration(
-                  color: Color.fromARGB(255, 179, 75, 253),
+                  color: Color.fromARGB(255, 253, 194, 75),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(
                     color: Colors.black,
@@ -192,12 +190,12 @@ class _HolidayState extends State<Holiday> {
                         child: Column(
                           children: [
                             Text(
-                              '26',
+                              '10',
                               style: TextStyle(
                                   fontSize: 15, fontFamily: 'Secular'),
                             ),
                             Text(
-                              'JAN',
+                              'APR',
                               style: TextStyle(
                                   fontSize: 15, fontFamily: 'Secular'),
                             )
@@ -210,8 +208,8 @@ class _HolidayState extends State<Holiday> {
                       child: Container(
                         margin: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 20.0),
                         child: Text(
-                          'Rebulic Day',
-                          style: TextStyle(fontFamily: 'Secular', fontSize: 25),
+                          'Ram Navami',
+                          style: TextStyle(fontSize: 35),
                         ),
                       ),
                     )
@@ -222,9 +220,9 @@ class _HolidayState extends State<Holiday> {
             Container(
               margin: EdgeInsets.all(15),
               width: 400,
-              height: 70,
+              height: 90,
               decoration: BoxDecoration(
-                  color: Color.fromARGB(255, 253, 75, 197),
+                  color: Color.fromARGB(255, 255, 131, 216),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(
                     color: Colors.black,
@@ -239,12 +237,12 @@ class _HolidayState extends State<Holiday> {
                         child: Column(
                           children: [
                             Text(
-                              '26',
+                              '3',
                               style: TextStyle(
                                   fontSize: 15, fontFamily: 'Secular'),
                             ),
                             Text(
-                              'JAN',
+                              'MAY',
                               style: TextStyle(
                                   fontSize: 15, fontFamily: 'Secular'),
                             )
@@ -257,8 +255,8 @@ class _HolidayState extends State<Holiday> {
                       child: Container(
                         margin: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 20.0),
                         child: Text(
-                          'Rebulic Day',
-                          style: TextStyle(fontFamily: 'Secular', fontSize: 25),
+                          'Eid',
+                          style: TextStyle(fontSize: 35),
                         ),
                       ),
                     )
@@ -269,7 +267,7 @@ class _HolidayState extends State<Holiday> {
             Container(
               margin: EdgeInsets.all(15),
               width: 400,
-              height: 70,
+              height: 90,
               decoration: BoxDecoration(
                   color: Color.fromARGB(255, 253, 75, 75),
                   borderRadius: BorderRadius.circular(20),
@@ -286,12 +284,12 @@ class _HolidayState extends State<Holiday> {
                         child: Column(
                           children: [
                             Text(
-                              '26',
+                              '21',
                               style: TextStyle(
                                   fontSize: 15, fontFamily: 'Secular'),
                             ),
                             Text(
-                              'JAN',
+                              'JUN',
                               style: TextStyle(
                                   fontSize: 15, fontFamily: 'Secular'),
                             )
@@ -304,8 +302,8 @@ class _HolidayState extends State<Holiday> {
                       child: Container(
                         margin: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 20.0),
                         child: Text(
-                          'Rebulic Day',
-                          style: TextStyle(fontFamily: 'Secular', fontSize: 25),
+                          'Yoga Day',
+                          style: TextStyle(fontSize: 35),
                         ),
                       ),
                     )
@@ -316,7 +314,7 @@ class _HolidayState extends State<Holiday> {
             Container(
               margin: EdgeInsets.all(15),
               width: 400,
-              height: 70,
+              height: 90,
               decoration: BoxDecoration(
                   color: Color.fromARGB(255, 253, 155, 75),
                   borderRadius: BorderRadius.circular(20),
@@ -350,7 +348,7 @@ class _HolidayState extends State<Holiday> {
             Container(
               margin: EdgeInsets.all(15),
               width: 400,
-              height: 70,
+              height: 90,
               decoration: BoxDecoration(
                   color: Color.fromARGB(255, 75, 176, 253),
                   borderRadius: BorderRadius.circular(20),
@@ -384,7 +382,7 @@ class _HolidayState extends State<Holiday> {
             Container(
               margin: EdgeInsets.all(15),
               width: 400,
-              height: 70,
+              height: 90,
               decoration: BoxDecoration(
                   color: Color.fromARGB(255, 229, 253, 75),
                   borderRadius: BorderRadius.circular(20),
@@ -395,7 +393,7 @@ class _HolidayState extends State<Holiday> {
             Container(
               margin: EdgeInsets.all(15),
               width: 400,
-              height: 70,
+              height: 90,
               decoration: BoxDecoration(
                   color: Color.fromARGB(255, 253, 75, 235),
                   borderRadius: BorderRadius.circular(20),
