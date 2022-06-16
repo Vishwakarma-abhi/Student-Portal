@@ -20,7 +20,7 @@ class timetable extends StatelessWidget {
                       color: Colors.amber,
                       borderRadius: BorderRadius.circular(10),
                     ),
-                    margin: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 80.0),
+                    margin: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 70.0),
                     child: Center(
                         child: Text(
                       'TIMETABLE',

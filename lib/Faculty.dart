@@ -193,7 +193,7 @@ class _detailsState extends State<details> {
                     width: 200,
                     height: 150,
                     child: Text(
-                      'KNM Mishra Sir',
+                      'Kamta Nath Sir',
                       style: TextStyle(fontSize: 20),
                     ),
                   ),
@@ -221,7 +221,7 @@ class _detailsState extends State<details> {
                     width: 200,
                     height: 150,
                     child: Text(
-                      'KNM Mishra Sir',
+                      'Rayees Ahmed Sir',
                       style: TextStyle(fontSize: 20),
                     ),
                   )
@@ -249,7 +249,7 @@ class _detailsState extends State<details> {
                     width: 200,
                     height: 150,
                     child: Text(
-                      'KNM Mishra Sir',
+                      'Sounak Paul Sir',
                       style: TextStyle(fontSize: 20),
                     ),
                   )
