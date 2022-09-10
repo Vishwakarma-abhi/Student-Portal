@@ -1,10 +1,11 @@
-# student_portal
+# Student_portal
 
 A new Flutter project.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+It is a a Student Portal through which a Student can access their academic details easily 
 
 A few resources to get you started if this is your first Flutter project:
 
